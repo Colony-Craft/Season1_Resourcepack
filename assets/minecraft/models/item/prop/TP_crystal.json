@@ -1,9 +1,9 @@
 {
+	"parent": "minecraft:item",
 	"credit": "Made with Blockbench",
-	"parent": "minecraft:item/prop/generated",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "prop/TP_crystal"
+		"0": "minecraft:item/tp_crystal"
 	},
 	"elements": [
 		{

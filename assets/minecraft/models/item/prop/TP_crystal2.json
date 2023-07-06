@@ -1,6 +1,0 @@
-{
-	"parent": "minecraft:item/prop/generated",
-	"textures": {
-		"0": "prop/TP_crystal"
-	}
-  }

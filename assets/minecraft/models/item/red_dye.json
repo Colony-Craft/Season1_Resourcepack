@@ -4,7 +4,6 @@
         "layer0": "minecraft:item/red_dye"
     },
     "overrides": [
-		{"predicate": {"custom_model_data": 1},"model": "minecraft:item/prop/TP_crystal"},
-        {"predicate": {"custom_model_data": 2},"model": "minecraft:item/prop/TP_crystal2"}
+		{"predicate": {"custom_model_data": 1},"model": "minecraft:item/prop/TP_crystal"}
 	]
 }
