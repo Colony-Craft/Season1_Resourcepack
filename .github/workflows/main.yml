@@ -19,7 +19,7 @@ jobs:
       uses: thedoctor0/zip-release@main
       with:
         type: 'zip'
-        filename: ${{ env.RELEASE_FILENAME }}
+        filename: resource.zip
         exclusions: '*.git*'
       
     - name: Create Release
