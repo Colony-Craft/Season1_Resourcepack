@@ -32,4 +32,4 @@ jobs:
         name: ${{ env.CURRENT_DATETIME }}
         draft: false
         prerelease: false
-        files: "resource.zip"
+        files: resource.zip
