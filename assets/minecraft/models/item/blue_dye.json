@@ -6,6 +6,7 @@
     "overrides": [
 		{"predicate": {"custom_model_data": 1},"model": "minecraft:item/prop/tp_crystal"},
         {"predicate": {"custom_model_data": 2},"model": "minecraft:item/prop/turret"},
-        {"predicate": {"custom_model_data": 3},"model": "minecraft:item/prop/bomb_turret"}
+        {"predicate": {"custom_model_data": 3},"model": "minecraft:item/prop/bomb_turret"},
+        {"predicate": {"custom_model_data": 4},"model": "minecraft:item/prop/sp_turret"}
 	]
 }   

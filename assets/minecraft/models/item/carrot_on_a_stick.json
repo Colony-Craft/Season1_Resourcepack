@@ -4,14 +4,6 @@
 		"layer0": "item/carrot_on_a_stick"
 	},
 	"overrides": [
-		{ "predicate": { "custom_model_data": 7758}, "model": "item/prop/mining_upgrade" },
-		{ "predicate": { "custom_model_data": 2}, "model": "---" },
-		{ "predicate": { "custom_model_data": 3}, "model": "---" },
-		{ "predicate": { "custom_model_data": 4}, "model": "---" },
-		{ "predicate": { "custom_model_data": 5}, "model": "---" },
-		{ "predicate": { "custom_model_data": 6}, "model": "---" },
-		{ "predicate": { "custom_model_data": 7}, "model": "---" },
-		{ "predicate": { "custom_model_data": 8}, "model": "---" },
-		{ "predicate": { "custom_model_data": 9}, "model": "---" }
+		{ "predicate": { "custom_model_data": 7758}, "model": "item/prop/mining_upgrade" }
 	]
 }
