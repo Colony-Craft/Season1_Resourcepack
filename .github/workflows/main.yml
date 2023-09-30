@@ -8,13 +8,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: actions/checkout@v4
 
     - name: Set Time
       env:
         TZ: 'Asia/Tokyo' # タイムゾーン指定
       run: echo "CURRENT_DATETIME=$(date +'%Y%m%d-%H%M%S')" >> $GITHUB_ENV
+
+    - name: get hash
       
+      run: echo "SHORT_SHA=`echo ${GITHUB_SHA} | cut -c1-8`" >> $GITHUB_ENV
+
+    - name: edit pack.mcmeta
+      
+      run: python -c "import json; mcmeta = json.load(open('pack.mcmeta',mode='r')); mcmeta['pack']['description'] += '\n Commit ${{ env.SHORT_SHA }}'; json.dump(mcmeta,open('pack.mcmeta',mode='w'),indent=2)"
+
+
     - name: Archive Release
       uses: thedoctor0/zip-release@main
       with:
