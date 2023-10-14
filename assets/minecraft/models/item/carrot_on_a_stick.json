@@ -6,6 +6,7 @@
 	"overrides": [
 		{ "predicate": { "custom_model_data": 1}, "model": "item/prop/small_tp_crystal" },
 		{ "predicate": { "custom_model_data": 2}, "model": "item/prop/syringe" },
+		{ "predicate": { "custom_model_data": 2}, "model": "item/prop/musket" },
 		{ "predicate": { "custom_model_data": 7758}, "model": "item/prop/mining_upgrade" }
 	]
 }
