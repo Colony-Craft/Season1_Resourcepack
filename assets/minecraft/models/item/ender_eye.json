@@ -4,7 +4,6 @@
         "layer0": "minecraft:item/ender_eye"
     },
     "overrides": [
-        {"predicate": {"custom_model_data": 1},"model": "minecraft:item/prop/musket"},
 		{"predicate": {"custom_model_data": 8928},"model": "minecraft:item/prop/alert_block"},
         {"predicate": {"custom_model_data": 8929},"model": "minecraft:item/prop/alert_player"}
 	]
